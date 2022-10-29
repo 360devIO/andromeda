@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E9A52002BF9DCD1275373BB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A511A5494CA1366FFE49A /* Data.swift */; };
+		4E9A5660A363E6096343CC8B /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A51C7DDE15FB993D4D042 /* conferencesData.json */; };
+		4E9A5803474239317AA051F6 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A59DD28E316F1985A8D3B /* Conference.swift */; };
+		4E9A5B705133BBD84FC0FDEE /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A5C2FC77FE850F150C857 /* ConferenceDetails.swift */; };
 		BD4148D3290C7C680077FC0A /* andromedaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4148D2290C7C680077FC0A /* andromedaApp.swift */; };
-		BD4148D5290C7C680077FC0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4148D4290C7C680077FC0A /* ContentView.swift */; };
 		BD4148D7290C7C6A0077FC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4148D6290C7C6A0077FC0A /* Assets.xcassets */; };
 		BD4148DB290C7C6A0077FC0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4148DA290C7C6A0077FC0A /* Preview Assets.xcassets */; };
 		BD4148E5290C7C6B0077FC0A /* andromedaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4148E4290C7C6B0077FC0A /* andromedaTests.swift */; };
 		BD4148EF290C7C6B0077FC0A /* andromedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4148EE290C7C6B0077FC0A /* andromedaUITests.swift */; };
 		BD4148F1290C7C6B0077FC0A /* andromedaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4148F0290C7C6B0077FC0A /* andromedaUITestsLaunchTests.swift */; };
+		BD67C9D5290CD98300192D8F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67C9D4290CD98200192D8F /* TrailingIconLabelStyle.swift */; };
+		BD7A4C17290C812800B6D39A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A4C16290C812800B6D39A /* Theme.swift */; };
+		BD7A4C19290C82DE00B6D39A /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A4C18290C82DE00B6D39A /* MeetingView.swift */; };
+		BD7A4C1B290C839700B6D39A /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A4C1A290C839700B6D39A /* DailyScrum.swift */; };
+		BD7A4C1D290C83D900B6D39A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A4C1C290C83D900B6D39A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E9A511A5494CA1366FFE49A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4E9A51C7DDE15FB993D4D042 /* conferencesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conferencesData.json; sourceTree = "<group>"; };
+		4E9A59DD28E316F1985A8D3B /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
+		4E9A5C2FC77FE850F150C857 /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
 		BD4148CF290C7C680077FC0A /* andromeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = andromeda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4148D2290C7C680077FC0A /* andromedaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andromedaApp.swift; sourceTree = "<group>"; };
-		BD4148D4290C7C680077FC0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD4148D6290C7C6A0077FC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4148D8290C7C6A0077FC0A /* andromeda.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = andromeda.entitlements; sourceTree = "<group>"; };
 		BD4148DA290C7C6A0077FC0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +56,11 @@
 		BD4148EA290C7C6B0077FC0A /* andromedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = andromedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4148EE290C7C6B0077FC0A /* andromedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andromedaUITests.swift; sourceTree = "<group>"; };
 		BD4148F0290C7C6B0077FC0A /* andromedaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = andromedaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD67C9D4290CD98200192D8F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		BD7A4C16290C812800B6D39A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BD7A4C18290C82DE00B6D39A /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		BD7A4C1A290C839700B6D39A /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		BD7A4C1C290C83D900B6D39A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E9A53ABF2264A40191EF14E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A51C7DDE15FB993D4D042 /* conferencesData.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		BD4148C6290C7C680077FC0A = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +119,14 @@
 		BD4148D1290C7C680077FC0A /* andromeda */ = {
 			isa = PBXGroup;
 			children = (
+				BD7A4C15290C810E00B6D39A /* theme */,
+				BD7A4C14290C810600B6D39A /* models */,
+				BD7A4C13290C80FA00B6D39A /* views */,
 				BD4148D2290C7C680077FC0A /* andromedaApp.swift */,
-				BD4148D4290C7C680077FC0A /* ContentView.swift */,
 				BD4148D6290C7C6A0077FC0A /* Assets.xcassets */,
 				BD4148D8290C7C6A0077FC0A /* andromeda.entitlements */,
 				BD4148D9290C7C6A0077FC0A /* Preview Content */,
+				4E9A53ABF2264A40191EF14E /* resources */,
 			);
 			path = andromeda;
 			sourceTree = "<group>";
@@ -127,6 +154,35 @@
 				BD4148F0290C7C6B0077FC0A /* andromedaUITestsLaunchTests.swift */,
 			);
 			path = andromedaUITests;
+			sourceTree = "<group>";
+		};
+		BD7A4C13290C80FA00B6D39A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A4C18290C82DE00B6D39A /* MeetingView.swift */,
+				BD7A4C1C290C83D900B6D39A /* CardView.swift */,
+				4E9A5C2FC77FE850F150C857 /* ConferenceDetails.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BD7A4C14290C810600B6D39A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A4C1A290C839700B6D39A /* DailyScrum.swift */,
+				4E9A511A5494CA1366FFE49A /* Data.swift */,
+				4E9A59DD28E316F1985A8D3B /* Conference.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		BD7A4C15290C810E00B6D39A /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A4C16290C812800B6D39A /* Theme.swift */,
+				BD67C9D4290CD98200192D8F /* TrailingIconLabelStyle.swift */,
+			);
+			path = theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +250,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					BD4148CE290C7C680077FC0A = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -235,6 +292,7 @@
 			files = (
 				BD4148DB290C7C6A0077FC0A /* Preview Assets.xcassets in Resources */,
 				BD4148D7290C7C6A0077FC0A /* Assets.xcassets in Resources */,
+				4E9A5660A363E6096343CC8B /* conferencesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4148D5290C7C680077FC0A /* ContentView.swift in Sources */,
+				BD7A4C1B290C839700B6D39A /* DailyScrum.swift in Sources */,
+				BD67C9D5290CD98300192D8F /* TrailingIconLabelStyle.swift in Sources */,
+				BD7A4C19290C82DE00B6D39A /* MeetingView.swift in Sources */,
+				BD7A4C17290C812800B6D39A /* Theme.swift in Sources */,
 				BD4148D3290C7C680077FC0A /* andromedaApp.swift in Sources */,
+				BD7A4C1D290C83D900B6D39A /* CardView.swift in Sources */,
+				4E9A52002BF9DCD1275373BB /* Data.swift in Sources */,
+				4E9A5803474239317AA051F6 /* Conference.swift in Sources */,
+				4E9A5B705133BBD84FC0FDEE /* ConferenceDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +415,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"\"-Xlinker -interposable\"",
+				);
+				SDKROOT = iphoneos16.0;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -401,6 +470,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"\"-Xlinker -interposable\"",
+				);
+				SDKROOT = iphoneos16.0;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -434,7 +507,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.jupiter.andromeda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos16.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,7 +543,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.jupiter.andromeda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos16.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -491,7 +564,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.jupiter.andromedaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos16.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -513,7 +586,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.jupiter.andromedaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos16.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
